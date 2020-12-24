@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.logo-icon {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-btn {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(18, 18, 18);
+}
+
+.nav-btn:hover {
+    border-bottom: solid 2px rgb(18, 18, 18);
+    color: rgb(118, 117, 117);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.svg {
+    fill: rgb(18, 18, 18);
+    transition: 0.5s;
+}
+
+.svg:hover {
+    fill: rgb(118, 117, 117);
+    transform: scale(1.3);
+}
+
+.other-btn:hover {
+    border: none;
+}
+
+.animation {
+    width: 1600px;
+    height: 900px;
+    margin: 0px auto;
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    background-size: cover;
+  }
+
+@keyframes slidein {
+    0% {
+        background-image: url(../img/1.jpg);
+    }
+  
+    20% {
+        background-image: url(../img/2.jpg);
+    }
+  
+    40% {
+        background-image: url(../img/3.jpg);
+    }
+    60% {
+        background-image: url(../img/4.jpg);
+    }
+    80% {
+        background-image: url(../img/5.jpg);
+    }
+    100% {
+        background-image: url(../img/6.jpg);
+    }
+  }
