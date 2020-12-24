@@ -1,28 +1,62 @@
 body {
     margin: 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: rgb(249, 244, 244);
+    font-family: 'Cuprum', sans-serif;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.phone-number {
+    font-size: 18px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.phone:hover {
+    color: rgb(118, 117, 117);
+    transition: 0.5s;
+}
+
+.btn {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+span, .uppercase {
+    text-transform: uppercase;
 }
 
 .header-nav {
+    padding: 30px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .logo-icon {
-    padding: 0px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
+
 }
 
 .nav-btn {
-    padding: 0px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
+    margin-left: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    border-bottom: solid 2px transparent;
     color: rgb(18, 18, 18);
 }
 
@@ -30,7 +64,6 @@ body {
     border-bottom: solid 2px rgb(18, 18, 18);
     color: rgb(118, 117, 117);
     transition: 0.5s;
-    transform: scale(1.2);
 }
 
 .svg {
@@ -43,8 +76,16 @@ body {
     transform: scale(1.3);
 }
 
+.other-btn {
+    margin-left: 30px;
+}
+
 .other-btn:hover {
     border: none;
+}
+
+main {
+    padding-bottom: 15px;
 }
 
 .animation {
@@ -79,3 +120,148 @@ body {
         background-image: url(../img/6.jpg);
     }
   }
+
+.boots-section {
+
+}
+
+.boots-title {
+    text-align: center;
+}
+
+.boots-icons {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.boots-img {
+    width: 400px;
+}
+
+.boots-img:hover {
+    transition: 1s;
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+footer {
+    padding: 50px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-link {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-btn {
+
+}
+
+.info-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+    color: rgb(255, 255, 255);
+}
+
+.info-more-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+    color: rgb(126, 126, 126);
+}
+
+.info-btn:hover {
+    color: rgb(126, 126, 126);
+}
+
+.info-more-btn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.social-btn {
+    margin-left: 20px;
+}
+
+.footer-svg {
+    fill: rgb(126, 126, 126);
+}
+
+.footer-svg:hover {
+    fill: rgb(255, 255, 255);
+}
+
+.social-link {
+    margin-top: 100px;
+}
+
+.footer-logo {
+    margin-top: 50px;
+}
+
+.container{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-a {
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+  
+.btn-a .animated-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.btn-a .animated-btn rect {
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+  
+.btn-a span{
+    background: rgb(255,130,130);
+    background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+    background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.btn-a:hover .animated-btn rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
