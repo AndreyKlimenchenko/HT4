@@ -265,3 +265,20 @@ footer {
     stroke-dasharray: 196, 543;
     stroke-dashoffset: 437;
 }
+
+/* NEW pages  } */
+
+.new-icons {
+    flex-wrap: wrap;
+}
+
+.new-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.new-img {
+    width: 200px;
+    height: 100%;
+}
