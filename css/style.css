@@ -8,6 +8,13 @@ body {
 
 .title {
     font-size: 24px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: rgb(118, 117, 117);
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 .phone-number {
@@ -84,7 +91,7 @@ span, .uppercase {
     border: none;
 }
 
-main {
+.main {
     padding-bottom: 15px;
 }
 
